@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    cursor: pointer;
+
+}
+
+.navabar.logo{
+    width: max(10%,80px);
+}
+
+.navbar.profile{
+    width: 40px;
+}
+
+
+
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top:-8px;
+    right: -8px;
+
+}
+
+
+@media(max-width:1050px){
+    .navabar.logo{
+        width: 140px;
+    }
+}
+
